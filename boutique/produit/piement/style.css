@@ -1,0 +1,108 @@
+:root{
+    --pink:#e84393;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    height: 30px;
+   
+    background-color:palevioletred;
+    border-radius: 3px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .navbar{
+    margin-left: 30%;
+}
+header .navbar a{
+    font-size:1.2rem ;
+    padding:0 1rem;
+    color: #fff;
+   
+    text-decoration: none;
+}
+header .navbar a:hover{
+    color:var(--pink);
+}
+
+
+.container{
+    width: 500px;
+    height: 420px;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    border-radius: 20px;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+   
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+   
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    
+    color: white;
+    text-align: center;
+   
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a:hover{
+    background-color: pink;
+}
+
+.cards img{
+    width: 50px;
+}
